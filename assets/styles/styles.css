@@ -1,0 +1,116 @@
+/* Colors
+ ******************************/
+/* Primary
+ ***************/
+/* Global Variables
+ ******************************/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: #141414;
+}
+
+/* Body Variables
+ ******************************/
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card {
+  margin: 0 24px;
+  padding: 24px;
+  width: 384px;
+  border-radius: 12px;
+  background-color: #1F1F1F;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.profile-card__img {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+}
+
+.profile-card__name {
+  /* Heading */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  /* White */
+  color: #FFFFFF;
+}
+
+.profile-card__location {
+  margin-top: 4px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #C4F82A;
+}
+
+.profile-card__bio {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.profile-card__social-links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.profile-card__social-link {
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #333333;
+  /* Body (Bold) */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 576px) {
+  .profile-card {
+    margin: 0;
+    padding: 40px;
+  }
+}
+@media (hover: hover) and (pointer: fine) {
+  .profile-card__social-link {
+    transition-property: background-color, color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+  }
+  .profile-card__social-link:hover {
+    background-color: #C4F82A;
+    color: #333333;
+  }
+}
