@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/DalaScript/blog-preview-card)
-- [Live Site URL](https://dalascript.github.io/blog-preview-card/)
+- [Solution URL](https://github.com/DalaScript/social-links-profile)
+- [Live Site URL](https://dalascript.github.io/social-links-profile/)
 
 ## My process 
 
