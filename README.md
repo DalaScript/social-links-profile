@@ -65,7 +65,7 @@ First I want to finish the javascript course I'm taking on freecodecamp, I'm als
 
 - [Instagram](https://www.instagram.com/DalaScript)
 - [YouTube](https://www.youtube.com/@DalaScript)
-- [TikTok](https://www.tiktok.com/@Dalascript)
+- [TikTok](https://www.tiktok.com/@CodeWithDala)
 
 ### Coding Profiles
 
