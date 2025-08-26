@@ -3,30 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
-  <title>Social links profile | Frontend Mentor</title>
-  <link rel="stylesheet" href="./assets/styles/styles.css">
+  <title>Social Links Profile | Frontend Mentor</title>
+  
+  <!-- Styles -->
+  <!-- Base -->
+  <link rel="stylesheet" href="./assets/styles/base/variables.css" />
+  <link rel="stylesheet" href="./assets/styles/base/reset.css" />
+  <!-- Layout -->
+  <link rel="stylesheet" href="./assets/styles/layout/page-layout.css">
+  <!-- Components -->
+  <link rel="stylesheet" href="./assets/styles/components/profile-card.css">
+
 </head>
 <body>
   <main>
     <article class="profile-card">
-      <img class="profile-card__img" src="./assets/images/avatar-jessica.jpeg" width="88" height="88" alt="avatar of developer">
-      <section class="profile-card__personal-info">
-        <p class="profile-card__name">Jessica Randall</p>
+      <img class="profile-card__img" src="./assets/images/avatar-jessica.jpeg" width="88" height="88" alt="Portrait of Jessica Randall">
+      <header class="profile-card__personal-info">
+        <h1 class="profile-card__name">Jessica Randall</h1>
         <p class="profile-card__location">London, United Kingdom</p>
-      </section>
+      </header>
       <p class="profile-card__bio">"Front-end developer and avid reader."</p>
-      <nav class="profile-card__social-links">
-        <a class="profile-card__social-link" href="#">GitHub</a>
-        <a class="profile-card__social-link" href="#">Frontend Mentor</a>
-        <a class="profile-card__social-link" href="#">LinkedIn</a>
-        <a class="profile-card__social-link" href="#">Twitter</a>
-        <a class="profile-card__social-link" href="#">Instagram</a>
+      <nav class="profile-card__social-links" aria-label="Social media links">
+        <ul class="profile-card__social-list">
+          <li><a class="profile-card__social-link" href="#github">GitHub</a></li>
+          <li><a class="profile-card__social-link" href="#frontendMentor">Frontend Mentor</a></li>
+          <li><a class="profile-card__social-link" href="#linkedIn">LinkedIn</a></li>
+          <li><a class="profile-card__social-link" href="#twitter">Twitter</a></li>
+          <li><a class="profile-card__social-link" href="#instagram">Instagram</a></li>
+        </ul>
       </nav>
     </article>
   </main>
