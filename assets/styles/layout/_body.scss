@@ -1,12 +1,12 @@
-/* || Body
+/* || Body Element
  *************************/
 body {
-    background-color: var(--black);
+    background-color: $black;
 
-    font-family: var(--inter);
+    font-family: $inter;
 }
 
-/* || Main
+/* || Main Element
  *************************/
 main {
     padding: 0 24px;

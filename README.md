@@ -24,7 +24,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 Users should be able to:
 
-  - See hover and focus states for all interactive elements on the page
+- See hover and focus states for all interactive elements on the page
 
 ### 📸 Screenshot
 
@@ -32,26 +32,26 @@ Users should be able to:
 
 ### 🔗 Links
 
-  - [🔴 Live Demo](https://DalaScript.github.io/social-links-profile/)
-  - [🗂️ GitHub Repository](https://github.com/DalaScript/social-links-profile)
+- [🔴 Live Demo](https://DalaScript.github.io/social-links-profile/)
+- [🗂️ GitHub Repository](https://github.com/DalaScript/social-links-profile)
 
 ### 🛠️ Built with
 
-  - HTML5
-  - CSS3
-  - Flexbox
-  - Mobile-first workflow
-  - bem - [Block Element Modifier](https://getbem.com/introduction/)
+- HTML5
+- CSS3
+- Flexbox
+- Mobile-first workflow
+- bem - [Block Element Modifier](https://getbem.com/introduction/)
 
 ## 🧠 My process
 
 ### 🔙 Previous Challenge
 
-  - Blog Preview Card | *Challenge 3* → [View Repository](https://github.com/DalaScript/blog-preview-card)
+- Blog Preview Card | *Challenge 3* → [View Repository](https://github.com/DalaScript/blog-preview-card)
 
 ### 🔜 Next Challenge
 
-  - Product Preview Card Component | *Challenge 5* → [View Repository](https://github.com/DalaScript/product-preview-card-component)
+- Product Preview Card Component | *Challenge 5* → [View Repository](https://github.com/DalaScript/product-preview-card-component)
 
 ---
 
@@ -59,13 +59,13 @@ Users should be able to:
 
 ### 🌐 Connect with Me
 
-  - [Instagram](https://www.instagram.com/DalaScript)
-  - [YouTube](https://www.youtube.com/@DalaScript)
+- [Instagram](https://www.instagram.com/DalaScript)
+- [YouTube](https://www.youtube.com/@DalaScript)
 
 ### 💻 Coding Profiles
 
-  - [freeCodeCamp](https://www.freecodecamp.org/DalaScript)
-  - [FrontendMentor](https://www.frontendmentor.io/profile/DalaScript)
-  - [GitHub](https://github.com/DalaScript)
+- [freeCodeCamp](https://www.freecodecamp.org/DalaScript)
+- [FrontendMentor](https://www.frontendmentor.io/profile/DalaScript)
+- [GitHub](https://github.com/DalaScript)
 
 *🙌 Thanks for checking out my project! More coming soon. Stay tuned 🚀*
